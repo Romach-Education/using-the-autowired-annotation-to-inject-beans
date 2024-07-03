@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class BookService {
     @Autowired
-    private BookRepository bookRepository;
+    public BookRepository bookRepository;
     private AuthorRepository authorRepository;
 
     @Autowired
